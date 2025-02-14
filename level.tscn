@@ -93,6 +93,7 @@ shape = SubResource("BoxShape3D_1dbtf")
 
 [node name="Back" type="StaticBody3D" parent="Borders"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 7.5, 0)
+input_ray_pickable = false
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Borders/Back"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 20)
