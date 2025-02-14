@@ -7,7 +7,7 @@ var i = 0
 # Called when the node enters the scene tree for the first time.
 @onready var sphere = $"RigidBody3D/Sphere Body"
 @onready var particle = $RigidBody3D/GPUParticles3D
-@onready var sfx = $RigidBody3D/AudioStreamPlayer3D
+@onready var sfx = $RigidBody3D/AudioStreamPlayer3D 
 @onready var collisionbody3d = $"RigidBody3D/CollisionShapeSphere"
 func _ready() -> void:
 	for i in range(ballcnt):
